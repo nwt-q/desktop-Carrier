@@ -39,11 +39,11 @@ class DressWin : public QWidget {
 public:
     explicit DressWin(QWidget *parent = nullptr);
     ~DressWin();
-    int getBodyid() const;
-    int getEarsid() const;
-    void wheelEvent(QWheelEvent *event) override;
+    int getBodyid() const; // 获取主要装扮
+    int getEarsid() const; // 获取耳朵装扮
+    void wheelEvent(QWheelEvent *event) override;  //鼠标滚轮事件
     void paintEvent(QPaintEvent *) override; //绘画事件
-    void accept(std::vector<QPixmap>& body,std::vector<QPixmap>& ears,int bodyid,int earsid);
+    void accept(std::vector<QPixmap>& body,std::vector<QPixmap>& ears,int bodyid,int earsid);  //换装
 private:
     void initBtn();//初始化按钮
 //signals:

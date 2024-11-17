@@ -1,5 +1,5 @@
-D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/QT.dir
-D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/QT_autogen_timestamp_deps.dir
-D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/QT_autogen.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/QT.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/QT_autogen_timestamp_deps.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/QT_autogen.dir

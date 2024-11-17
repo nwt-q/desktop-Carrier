@@ -7,8 +7,8 @@
 #define sitem(x) (msg_y + x * 240 + 210)
 #define sitep(x) (msg_y + x * 240)
 #define MaxHight (-230*Costumes_amount+460)
-#define Dummy "../resources/images/appearance/body/dummy.png"
-#define Choose "../resources/images/icon/choose.png"
+#define Dummy ":/images/appearance/body/dummy.png"
+#define Choose ":/images/icon/choose.png"
 
 DressWin::DressWin(QWidget *parent)  : QWidget(parent),ui(new Ui::DressWin){
     ui->setupUi(this);
@@ -28,7 +28,7 @@ DressWin::DressWin(QWidget *parent)  : QWidget(parent),ui(new Ui::DressWin){
     setWindowFlags(m_flags|Qt::WindowStaysOnTopHint);//保持窗口置顶2
 
     //更换皮肤
-    this->setWindowIcon(QIcon("../resources/images/icon/dress.png")); //设置窗口图标
+    this->setWindowIcon(QIcon(":/images/icon/dress.png")); //设置窗口图标
     initBtn();
 }
 
@@ -106,13 +106,12 @@ void DressWin::wheelEvent(QWheelEvent *event) {
 void DressWin::paintEvent(QPaintEvent *) {
     static QPixmap dummy(Dummy);
     QPainter painter(this);
-
-//    for(int i = 0; i < Costumes_amount; i++)
-//        painter.drawPixmap(0,sitep(i),240,240,body[i]);
-//    for(int i = 0;i < Costumes_amount;i++){
-//        painter.drawPixmap(200,sitep(i),240,240,dummy);
-//        painter.drawPixmap(200,sitep(i),240,240,ears[i]);
-//    }
+    for(int i = 0; i < Costumes_amount; i++)
+        painter.drawPixmap(0,sitep(i),240,240,body[i]);
+    for(int i = 0;i < Costumes_amount;i++){
+        painter.drawPixmap(200,sitep(i),240,240,dummy);
+        painter.drawPixmap(200,sitep(i),240,240,ears[i]);
+    }
 }
 
 void DressWin::accept(std::vector<QPixmap> &body, std::vector<QPixmap> &ears, int bodyid, int earsid) {

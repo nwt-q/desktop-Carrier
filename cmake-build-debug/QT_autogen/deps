@@ -36,22 +36,22 @@ QT_autogen/timestamp: \
 	D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake \
 	D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake \
 	D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake \
-	D:/CLion_Job/Carrier/CMakeLists.txt \
-	D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake \
-	D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake \
-	D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake \
-	D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake \
-	D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen/moc_predefs.h \
-	D:/CLion_Job/Carrier/include/carrier.h \
-	D:/CLion_Job/Carrier/include/dresswin.h \
-	D:/CLion_Job/Carrier/include/setwin.h \
-	D:/CLion_Job/Carrier/main.cpp \
-	D:/CLion_Job/Carrier/resources/res.qrc \
-	D:/CLion_Job/Carrier/src/carrier.cpp \
-	D:/CLion_Job/Carrier/src/dresswin.cpp \
-	D:/CLion_Job/Carrier/src/setwin.cpp \
-	D:/CLion_Job/Carrier/ui/ui_carrier.h \
-	D:/CLion_Job/Carrier/ui/ui_dresswin.h \
+	D:/CLion_Job/desktop-Carrier/CMakeLists.txt \
+	D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake \
+	D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake \
+	D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake \
+	D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake \
+	D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen/moc_predefs.h \
+	D:/CLion_Job/desktop-Carrier/include/carrier.h \
+	D:/CLion_Job/desktop-Carrier/include/dresswin.h \
+	D:/CLion_Job/desktop-Carrier/include/setwin.h \
+	D:/CLion_Job/desktop-Carrier/main.cpp \
+	D:/CLion_Job/desktop-Carrier/resources/res.qrc \
+	D:/CLion_Job/desktop-Carrier/src/carrier.cpp \
+	D:/CLion_Job/desktop-Carrier/src/dresswin.cpp \
+	D:/CLion_Job/desktop-Carrier/src/setwin.cpp \
+	D:/CLion_Job/desktop-Carrier/ui/ui_carrier.h \
+	D:/CLion_Job/desktop-Carrier/ui/ui_dresswin.h \
 	D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h \
 	D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h \
 	D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/algorithm \
@@ -647,7 +647,7 @@ QT_autogen/timestamp: \
 	D:/QT/QTidea/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateConfigVersionImpl.cmake \
 	D:/QT/QTidea/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateTargets.cmake \
 	D:/QT/QTidea/6.6.1/mingw_64/lib/cmake/Qt6ZlibPrivate/Qt6ZlibPrivateVersionlessTargets.cmake \
-	D:/CLion_Job/Carrier/ui/carrier.ui \
-	D:/CLion_Job/Carrier/ui/dresswin.ui \
-	D:/CLion_Job/Carrier/ui/setwin.ui \
+	D:/CLion_Job/desktop-Carrier/ui/carrier.ui \
+	D:/CLion_Job/desktop-Carrier/ui/dresswin.ui \
+	D:/CLion_Job/desktop-Carrier/ui/setwin.ui \
 	D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/bin/cmake.exe

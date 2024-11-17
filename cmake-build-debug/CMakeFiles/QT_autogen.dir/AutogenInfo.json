@@ -1,17 +1,17 @@
 {
-	"BUILD_DIR" : "D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen",
-	"CMAKE_BINARY_DIR" : "D:/CLion_Job/Carrier/cmake-build-debug",
-	"CMAKE_CURRENT_BINARY_DIR" : "D:/CLion_Job/Carrier/cmake-build-debug",
-	"CMAKE_CURRENT_SOURCE_DIR" : "D:/CLion_Job/Carrier",
+	"BUILD_DIR" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen",
+	"CMAKE_BINARY_DIR" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/CLion_Job/desktop-Carrier",
 	"CMAKE_EXECUTABLE" : "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/bin/cmake.exe",
 	"CMAKE_LIST_FILES" : 
 	[
-		"D:/CLion_Job/Carrier/CMakeLists.txt",
-		"D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake",
+		"D:/CLion_Job/desktop-Carrier/CMakeLists.txt",
+		"D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake",
-		"D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake",
-		"D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake",
+		"D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCCompiler.cmake",
+		"D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeCXXCompiler.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake",
@@ -24,7 +24,7 @@
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake",
-		"D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake",
+		"D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CMakeRCCompiler.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake",
@@ -254,47 +254,47 @@
 		"D:/QT/QTidea/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"D:/QT/QTidea/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
 		"D:/QT/QTidea/6.6.1/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
-		"D:/CLion_Job/Carrier/resources/res.qrc"
+		"D:/CLion_Job/desktop-Carrier/resources/res.qrc"
 	],
-	"CMAKE_SOURCE_DIR" : "D:/CLion_Job/Carrier",
-	"DEP_FILE" : "D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen/deps",
+	"CMAKE_SOURCE_DIR" : "D:/CLion_Job/desktop-Carrier",
+	"DEP_FILE" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen/deps",
 	"DEP_FILE_RULE_NAME" : "QT_autogen/timestamp",
 	"HEADERS" : 
 	[
 		[
-			"D:/CLion_Job/Carrier/include/carrier.h",
+			"D:/CLion_Job/desktop-Carrier/include/carrier.h",
 			"MU",
 			"6YEA5652QU/moc_carrier.cpp",
 			null
 		],
 		[
-			"D:/CLion_Job/Carrier/include/dresswin.h",
+			"D:/CLion_Job/desktop-Carrier/include/dresswin.h",
 			"MU",
 			"6YEA5652QU/moc_dresswin.cpp",
 			null
 		],
 		[
-			"D:/CLion_Job/Carrier/include/setwin.h",
+			"D:/CLion_Job/desktop-Carrier/include/setwin.h",
 			"MU",
 			"6YEA5652QU/moc_setwin.cpp",
 			null
 		],
 		[
-			"D:/CLion_Job/Carrier/ui/ui_carrier.h",
+			"D:/CLion_Job/desktop-Carrier/ui/ui_carrier.h",
 			"MU",
 			"UYX5XTB5RZ/moc_ui_carrier.cpp",
 			null
 		],
 		[
-			"D:/CLion_Job/Carrier/ui/ui_dresswin.h",
+			"D:/CLion_Job/desktop-Carrier/ui/ui_dresswin.h",
 			"MU",
 			"UYX5XTB5RZ/moc_ui_dresswin.cpp",
 			null
 		]
 	],
 	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
-	"INCLUDE_DIR" : "D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen/include",
-	"MOC_COMPILATION_FILE" : "D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen/mocs_compilation.cpp",
+	"INCLUDE_DIR" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen/include",
+	"MOC_COMPILATION_FILE" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen/mocs_compilation.cpp",
 	"MOC_DEFINITIONS" : 
 	[
 		"MINGW_HAS_SECURE_API=1",
@@ -349,23 +349,23 @@
 		"-c",
 		"D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
 	],
-	"MOC_PREDEFS_FILE" : "D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen/moc_predefs.h",
+	"MOC_PREDEFS_FILE" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen/moc_predefs.h",
 	"MOC_RELAXED_MODE" : false,
 	"MOC_SKIP" : [],
 	"MULTI_CONFIG" : false,
 	"PARALLEL" : 8,
-	"PARSE_CACHE_FILE" : "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/QT_autogen.dir/ParseCache.txt",
+	"PARSE_CACHE_FILE" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/QT_autogen.dir/ParseCache.txt",
 	"QT_MOC_EXECUTABLE" : "D:/QT/QTidea/6.6.1/mingw_64/./bin/moc.exe",
 	"QT_UIC_EXECUTABLE" : "D:/QT/QTidea/6.6.1/mingw_64/./bin/uic.exe",
 	"QT_VERSION_MAJOR" : 6,
 	"QT_VERSION_MINOR" : 6,
-	"SETTINGS_FILE" : "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/QT_autogen.dir/AutogenUsed.txt",
+	"SETTINGS_FILE" : "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/QT_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
-		[ "D:/CLion_Job/Carrier/main.cpp", "MU", null ],
-		[ "D:/CLion_Job/Carrier/src/carrier.cpp", "MU", null ],
-		[ "D:/CLion_Job/Carrier/src/dresswin.cpp", "MU", null ],
-		[ "D:/CLion_Job/Carrier/src/setwin.cpp", "MU", null ]
+		[ "D:/CLion_Job/desktop-Carrier/main.cpp", "MU", null ],
+		[ "D:/CLion_Job/desktop-Carrier/src/carrier.cpp", "MU", null ],
+		[ "D:/CLion_Job/desktop-Carrier/src/dresswin.cpp", "MU", null ],
+		[ "D:/CLion_Job/desktop-Carrier/src/setwin.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

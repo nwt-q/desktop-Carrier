@@ -28,7 +28,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
       
       The C compiler identification is GNU, found in:
-        D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe
+        D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/a.exe
       
   -
     kind: "message-v1"
@@ -50,7 +50,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.exe
+        D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/a.exe
       
   -
     kind: "try_compile-v1"
@@ -61,8 +61,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrqc5"
-      binary: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrqc5"
+      source: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rmxevv"
+      binary: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rmxevv"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -71,10 +71,10 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrqc5'
+        Change Dir: 'D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rmxevv'
         
-        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_4819e
-        [1/2] D:\\MinGW\\MinGW\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
+        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_aaede
+        [1/2] D:\\MinGW\\MinGW\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"
         Using built-in specs.
         COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\gcc.exe
         Target: x86_64-w64-mingw32
@@ -82,8 +82,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 10.3.0 (tdm64-1) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccvHEyX5.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccIT7PYN.s
         GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
         
@@ -104,13 +104,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccvHEyX5.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccIT7PYN.s
         GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
         COMPILER_PATH=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../libexec/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../lib/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
-        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\gcc.exe  -v CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj -o cmTC_4819e.exe -Wl,--out-implib,libcmTC_4819e.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64'
+        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\gcc.exe  -v CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj -o cmTC_aaede.exe -Wl,--out-implib,libcmTC_aaede.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\gcc.exe
         COLLECT_LTO_WRAPPER=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
@@ -121,9 +121,9 @@ events:
         gcc version 10.3.0 (tdm64-1) 
         COMPILER_PATH=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../libexec/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../lib/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4819e.exe' '-mtune=generic' '-march=x86-64'
-         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccgTtiYk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_4819e.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_4819e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4819e.exe' '-mtune=generic' '-march=x86-64'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aaede.exe' '-mtune=generic' '-march=x86-64'
+         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccJtaw5W.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_aaede.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_aaede.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aaede.exe' '-mtune=generic' '-march=x86-64'
         
       exitCode: 0
   -
@@ -157,10 +157,10 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-fcrqc5']
+        ignore line: [Change Dir: 'D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-rmxevv']
         ignore line: []
-        ignore line: [Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_4819e]
-        ignore line: [[1/2] D:\\MinGW\\MinGW\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
+        ignore line: [Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_aaede]
+        ignore line: [[1/2] D:\\MinGW\\MinGW\\bin\\gcc.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\gcc.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -168,8 +168,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 10.3.0 (tdm64-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccvHEyX5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccIT7PYN.s]
         ignore line: [GNU C17 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
         ignore line: []
@@ -190,8 +190,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 68074fcaab9f6b1377b55f7cea05149b]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccvHEyX5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccIT7PYN.s]
         ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
         ignore line: [COMPILER_PATH=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
         ignore line: [D:/MinGW/MinGW/bin/../libexec/gcc/]
@@ -202,8 +202,8 @@ events:
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [[2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\gcc.exe  -v CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj -o cmTC_4819e.exe -Wl --out-implib libcmTC_4819e.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [[2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\gcc.exe  -v CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj -o cmTC_aaede.exe -Wl --out-implib libcmTC_aaede.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\gcc.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
@@ -221,13 +221,13 @@ events:
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4819e.exe' '-mtune=generic' '-march=x86-64']
-        link line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccgTtiYk.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_4819e.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_4819e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_aaede.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccJtaw5W.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_aaede.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_aaede.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
           arg [D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccgTtiYk.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccJtaw5W.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -257,7 +257,7 @@ events:
           arg [--undefined=__xl_f] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_4819e.exe] ==> ignore
+          arg [cmTC_aaede.exe] ==> ignore
           arg [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
@@ -266,9 +266,9 @@ events:
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib]
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
-          arg [CMakeFiles/cmTC_4819e.dir/CMakeCCompilerABI.c.obj] ==> ignore
+          arg [CMakeFiles/cmTC_aaede.dir/CMakeCCompilerABI.c.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_4819e.dll.a] ==> ignore
+          arg [libcmTC_aaede.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -325,8 +325,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98asux"
-      binary: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98asux"
+      source: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1z67hf"
+      binary: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1z67hf"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -335,10 +335,10 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98asux'
+        Change Dir: 'D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1z67hf'
         
-        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_600cf
-        [1/2] D:\\MinGW\\MinGW\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_44834
+        [1/2] D:\\MinGW\\MinGW\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -346,8 +346,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 10.3.0 (tdm64-1) 
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccnqizIe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccafMrqX.s
         GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 10.3.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.23-GMP
         
@@ -374,13 +374,13 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-         D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccnqizIe.s
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+         D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccafMrqX.s
         GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1
         COMPILER_PATH=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../libexec/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../lib/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
-        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\c++.exe  -v CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_600cf.exe -Wl,--out-implib,libcmTC_600cf.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
+        COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64'
+        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\c++.exe  -v CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_44834.exe -Wl,--out-implib,libcmTC_44834.dll.a -Wl,--major-image-version,0,--minor-image-version,0   && cd ."
         Using built-in specs.
         COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe
@@ -391,9 +391,9 @@ events:
         gcc version 10.3.0 (tdm64-1) 
         COMPILER_PATH=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../libexec/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/;D:/MinGW/MinGW/bin/../lib/gcc/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/;D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_600cf.exe' '-mtune=generic' '-march=x86-64'
-         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccdgEG2n.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_600cf.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_600cf.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_600cf.exe' '-mtune=generic' '-march=x86-64'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_44834.exe' '-mtune=generic' '-march=x86-64'
+         D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccMUjlna.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_44834.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_44834.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_44834.exe' '-mtune=generic' '-march=x86-64'
         
       exitCode: 0
   -
@@ -433,10 +433,10 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld\\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: 'D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-98asux']
+        ignore line: [Change Dir: 'D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-1z67hf']
         ignore line: []
-        ignore line: [Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_600cf]
-        ignore line: [[1/2] D:\\MinGW\\MinGW\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_44834]
+        ignore line: [[1/2] D:\\MinGW\\MinGW\\bin\\c++.exe   -fdiagnostics-color=always   -v -o CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -444,8 +444,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 10.3.0 (tdm64-1) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccnqizIe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/ -D_REENTRANT D:/CLion/CLion 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj -version -fdiagnostics-color=always -o C:\\Users\\NWT\\AppData\\Local\\Temp\\ccafMrqX.s]
         ignore line: [GNU C++14 (tdm64-1) version 10.3.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 10.3.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.23-GMP]
         ignore line: []
@@ -472,8 +472,8 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 5e49fa89ed7bfe906173ae8e94e08de6]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccnqizIe.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj C:\\Users\\NWT\\AppData\\Local\\Temp\\ccafMrqX.s]
         ignore line: [GNU assembler version 2.36.1 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.36.1]
         ignore line: [COMPILER_PATH=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/]
         ignore line: [D:/MinGW/MinGW/bin/../libexec/gcc/]
@@ -484,8 +484,8 @@ events:
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [[2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\c++.exe  -v CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_600cf.exe -Wl --out-implib libcmTC_600cf.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
+        ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [[2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\c++.exe  -v CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj -o cmTC_44834.exe -Wl --out-implib libcmTC_44834.dll.a -Wl --major-image-version 0 --minor-image-version 0   && cd ."]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=D:\\MinGW\\MinGW\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe]
@@ -503,13 +503,13 @@ events:
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_600cf.exe' '-mtune=generic' '-march=x86-64']
-        link line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccdgEG2n.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_600cf.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_600cf.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_44834.exe' '-mtune=generic' '-march=x86-64']
+        link line: [ D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe -plugin D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll -plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccMUjlna.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -m i386pep --exclude-libs=libpthread.a --undefined=__xl_f -Bdynamic -o cmTC_44834.exe D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0 -LD:/MinGW/MinGW/bin/../lib/gcc -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib -LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../.. CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_44834.dll.a --major-image-version 0 --minor-image-version 0 -Bstatic -lstdc++ -Bdynamic -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -lmingw32 -lgcc -lpthread -lgcc -lkernel32 -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtend.o]
           arg [D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/liblto_plugin-0.dll] ==> ignore
           arg [-plugin-opt=D:/MinGW/MinGW/bin/../libexec/gcc/x86_64-w64-mingw32/10.3.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccdgEG2n.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\NWT\\AppData\\Local\\Temp\\ccMUjlna.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lpthread] ==> ignore
@@ -539,7 +539,7 @@ events:
           arg [--undefined=__xl_f] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_600cf.exe] ==> ignore
+          arg [cmTC_44834.exe] ==> ignore
           arg [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o] ==> obj [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/crtbegin.o]
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0]
@@ -548,9 +548,9 @@ events:
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../lib]
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/lib]
           arg [-LD:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..] ==> dir [D:/MinGW/MinGW/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../..]
-          arg [CMakeFiles/cmTC_600cf.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
+          arg [CMakeFiles/cmTC_44834.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_600cf.dll.a] ==> ignore
+          arg [libcmTC_44834.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -617,8 +617,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3ss752"
-      binary: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3ss752"
+      source: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0hlr23"
+      binary: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0hlr23"
     cmakeVariables:
       CMAKE_C_FLAGS: ""
       CMAKE_C_FLAGS_DEBUG: "-g"
@@ -628,11 +628,11 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3ss752'
+        Change Dir: 'D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0hlr23'
         
-        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_34571
-        [1/2] D:\\MinGW\\MinGW\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_34571.dir/src.c.obj -c D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-3ss752/src.c
-        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\gcc.exe   CMakeFiles/cmTC_34571.dir/src.c.obj -o cmTC_34571.exe -Wl,--out-implib,libcmTC_34571.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_372a3
+        [1/2] D:\\MinGW\\MinGW\\bin\\gcc.exe -DCMAKE_HAVE_LIBC_PTHREAD  -fdiagnostics-color=always -o CMakeFiles/cmTC_372a3.dir/src.c.obj -c D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-0hlr23/src.c
+        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\gcc.exe   CMakeFiles/cmTC_372a3.dir/src.c.obj -o cmTC_372a3.exe -Wl,--out-implib,libcmTC_372a3.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
   -
@@ -650,8 +650,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vyq69h"
-      binary: "D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vyq69h"
+      source: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5a1g8y"
+      binary: "D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5a1g8y"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -661,11 +661,11 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vyq69h'
+        Change Dir: 'D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5a1g8y'
         
-        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_2be33
-        [1/2] D:\\MinGW\\MinGW\\bin\\c++.exe -DHAVE_STDATOMIC  -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_2be33.dir/src.cxx.obj -c D:/CLion_Job/Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-vyq69h/src.cxx
-        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\c++.exe   CMakeFiles/cmTC_2be33.dir/src.cxx.obj -o cmTC_2be33.exe -Wl,--out-implib,libcmTC_2be33.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
+        Run Build Command(s): "D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -v cmTC_319a2
+        [1/2] D:\\MinGW\\MinGW\\bin\\c++.exe -DHAVE_STDATOMIC  -std=gnu++17 -fdiagnostics-color=always -o CMakeFiles/cmTC_319a2.dir/src.cxx.obj -c D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-5a1g8y/src.cxx
+        [2/2] cmd.exe /C "cd . && D:\\MinGW\\MinGW\\bin\\c++.exe   CMakeFiles/cmTC_319a2.dir/src.cxx.obj -o cmTC_319a2.exe -Wl,--out-implib,libcmTC_319a2.dll.a -Wl,--major-image-version,0,--minor-image-version,0  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 && cd ."
         
       exitCode: 0
 ...

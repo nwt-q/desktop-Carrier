@@ -29,20 +29,21 @@ public:
     void initBtn();//初始化按钮
     void reInitBtn();//修改大小时再次初始化按钮
     void initSystemTray();//初始化系统托盘
-    void imageLoad();//各部位图片载入
+    void imageLoad();//各部位图片载入, 事件绑定
     inline void imageSet(QLabel *image,QPixmap map);//设置各部位图片
     void eyesMovementLoad();//眼部动作载入
-    void eyesMovement();
+    void eyesMovement(); //眼部动作事件
     void specialMovementLoad();//特殊动作载入
     void specialMovement();//特殊动作事件
     void saveData();//存储数据
     void mousePressEvent(QMouseEvent *event) override;//鼠标点击事件-虚函数
+    void mouseMoveEvent(QMouseEvent *event) override;//鼠标移动事件-虚函数
     void btnSwitchRole();//根据btnSwitch切换按钮状态
     void gameBtnPush();
 private:
     Ui::Carrier *ui;
     DressWin *dressWindow;//换装窗口指针
-    SetWin *setWindow;//设置窗口指针
+    SetWin *setWindow;//设置大小窗口指针
 
     int size; //设置体型大小
     int bodyid,earsid; //身体和耳朵对应装扮序号
@@ -69,6 +70,7 @@ private:
     QPushButton *musicBtn;//音乐按钮
     QPushButton *gameBtn;//游戏按钮
     QPushButton *calenBtn;//日历按钮
+
     QSystemTrayIcon* pSystemTray;//系统托盘
 
     QCalendarWidget *calenWindow;//日历窗口指针

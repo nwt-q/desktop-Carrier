@@ -1,7 +1,7 @@
-D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen/6YEA5652QU/moc_carrier.cpp: D:/CLion_Job/Carrier/include/carrier.h \
-  D:/CLion_Job/Carrier/cmake-build-debug/QT_autogen/moc_predefs.h \
-  D:/CLion_Job/Carrier/include/dresswin.h \
-  D:/CLion_Job/Carrier/include/setwin.h \
+D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen/6YEA5652QU/moc_carrier.cpp: D:/CLion_Job/desktop-Carrier/include/carrier.h \
+  D:/CLion_Job/desktop-Carrier/cmake-build-debug/QT_autogen/moc_predefs.h \
+  D:/CLion_Job/desktop-Carrier/include/dresswin.h \
+  D:/CLion_Job/desktop-Carrier/include/setwin.h \
   D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h \
   D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h \
   D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/algorithm \

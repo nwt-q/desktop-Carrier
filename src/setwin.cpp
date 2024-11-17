@@ -8,6 +8,7 @@
 SetWin::SetWin(QWidget *parent) :
         QWidget(parent),ui(new Ui::SetWin){
     ui->setupUi(this);
+
     // 设置开机自启动 与 Carrier大小
     QBitmap bmp(this->size());//设置圆角边框
     bmp.fill();
@@ -22,7 +23,7 @@ SetWin::SetWin(QWidget *parent) :
     Qt::WindowFlags m_flags = windowFlags();//保持窗口置顶1
     setWindowFlags(m_flags|Qt::WindowStaysOnTopHint);//保持窗口置顶2
 
-    this->setWindowIcon(QIcon("../resources/images/icon/setting.png")); //设置窗口图标
+    this->setWindowIcon(QIcon(":/images/icon/setting.png")); //设置窗口图标
 }
 
 SetWin::~SetWin() {

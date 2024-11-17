@@ -136,6 +136,6 @@
         <file>images/icon/pause.png</file>
         <file>images/icon/play.png</file>
         <file>images/icon/add.png</file>
-        <file>images/icon/haro_icon.ico</file>
+        <file>images/icon/carrier_icon.ico</file>
     </qresource>
 </RCC>

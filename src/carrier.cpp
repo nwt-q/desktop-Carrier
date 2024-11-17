@@ -4,17 +4,19 @@
 
 #include "../include/carrier.h"
 #include "../ui/ui_carrier.h"
-#define Dat "../resources/file/file.dat"  //基本数据存放区域
-#define Fly "../resources/images/movement/fly/%1.png"
-#define Error "../resources/images/movement/error/%1.png"
-#define Blink "../resources/movement/blink/%1.png"
-#define Heart "../resources/images/movement/heart/%1.png"
-#define Question "../resources/images/movement/question/%1.png"
-#define CloseEyes "../resources/images/movement/closeEyes/%1.png"
-#define Wink "../resources/images/movement/wink/%1.png"
+
+#define Dat "D:/CLion_Job/Carrier/resources/file/file.dat"  //基本数据存放区域
+#define Fly ":/images/movement/fly/%1.png"
+#define Error ":/images/movement/error/%1.png"
+#define Blink ":/images/movement/blink/%1.png"
+#define Heart ":/images/movement/heart/%1.png"
+#define Question ":/images/movement/question/%1.png"
+#define CloseEyes ":/images/movement/closeEyes/%1.png"
+#define Wink ":/images/movement/wink/%1.png"
 
 Carrier::Carrier(QWidget *parent) : QMainWindow(parent)
 , ui(new Ui::Carrier) {
+
     ui->setupUi(this);
 
     setWindowFlags(Qt::FramelessWindowHint|Qt::Tool);//去掉窗口标题
@@ -36,39 +38,50 @@ Carrier::Carrier(QWidget *parent) : QMainWindow(parent)
     stripeImage = new QLabel(this);//屏幕遮盖条纹图片指针
     earsImage = new QLabel(this);//耳朵图片指针
 
-    imageSet(bodyImage,body[bodyid]);
-    eyesMovementLoad();//载入表情图片
-    specialMovementLoad();//载入特殊动作图片
-
-    bodyImage = new QLabel(this);//身体图片指针
-    eyesImage = new QLabel(this);//眼部图片指针
-    stripeImage = new QLabel(this);//屏幕遮盖条纹图片指针
-    earsImage = new QLabel(this);//耳朵图片指针
 
     imageSet(bodyImage,body[bodyid]);
 
     imageSet(eyesImage,eyes);
 
-    if(size>140){
+    if(size > 140){
         imageSet(stripeImage,stripe);
         stripeImage->show();
-    }
-    else
-        stripeImage->hide();
+    } else stripeImage->hide();
 
     imageSet(earsImage,ears1[earsid]);
 
     initBtn();//初始化按钮
+    update();
     initSystemTray();//初始化系统托盘
 }
 
 Carrier::~Carrier() {
     delete ui;
+    //清理各类指针申请的空间
+
+    delete earsImage;
+    delete bodyImage;
+    delete eyesImage;
+    delete stripeImage;
+
+    delete closeBtn;
+    delete dressBtn;
+    delete moreBtn;
+    delete minBtn;
+    delete setBtn;
+    delete musicBtn;
+    delete gameBtn;
+    delete calenBtn;
+
+    delete dressWindow;
+    delete setWindow;
+    delete calenWindow;
 }
+
 //对坐标进行初始化
 void Carrier::InitPos() {
     int coordX,coordY;//桌面坐标
-    QFile file("../resources/file/file.dat");
+    QFile file(Dat);
     file.open(QIODevice::ReadOnly);
     QDataStream in(&file);
     if(file.isOpen()) // 读取体型、 装扮编号参数、相对桌面坐标  => 保留用户设置操作  => 数据持久化
@@ -83,7 +96,6 @@ void Carrier::InitPos() {
     file.close();
     move(coordX,coordY);
 }
-
 
 void Carrier::eyesMovementLoad() {
     faceNum.push_back(9);//帧数-例：9代表9帧
@@ -173,7 +185,7 @@ void Carrier::eyesMovement() {
 
             imageSet(bodyImage,body[bodyid]);
             imageSet(eyesImage,eyes);
-            if(size>140){
+            if(size > 140){
                 imageSet(stripeImage,stripe);
                 stripeImage->show();
             }
@@ -219,7 +231,7 @@ void Carrier::saveData() {
     QFile file(Dat);
     file.open(QIODevice::WriteOnly);
     QDataStream out(&file);
-    out<<size<<bodyid<<earsid<<x()<<y();//存储体型、装扮编号参数、窗口坐标
+    out << size << bodyid << earsid << x() << y();//存储体型、装扮编号参数、窗口坐标
     file.close();
 }
 
@@ -249,6 +261,10 @@ void Carrier::mousePressEvent(QMouseEvent *event) {
         } else btnSwitch_1=1; //显示按钮
         //讲菜单隐藏
         dressWindow->hide();
+        //设置隐藏
+        setWindow->hide();
+        //日历隐藏
+        calenWindow->hide();
         //选择模式
         btnSwitchRole();
     }
@@ -264,6 +280,13 @@ void Carrier::btnSwitchRole() {
     musicBtn->setVisible(btnSwitch_2);
     gameBtn->setVisible(btnSwitch_2);
     calenBtn->setVisible(btnSwitch_2);
+
+     //移动窗口坐标↓
+    setWindow->move(x()+frameGeometry().width()/2
+     -btnSize*(btnSwitch_1+btnSwitch_2+1.5)/4-setWindow->frameGeometry().width(),
+     y()+frameGeometry().height()/2-size/5
+     -setWindow->frameGeometry().height()/2);
+
     //移动窗口坐标↓
     // musicWindow->move(x()+frameGeometry().width()/2
     // -btnSize*(btnSwitch_1+btnSwitch_2+1.5)/4-musicWindow->frameGeometry().width(),
@@ -278,33 +301,6 @@ void Carrier::btnSwitchRole() {
 
 
 void Carrier::imageLoad() {
-    //载入装扮图片
-//    body.push_back(QPixmap(QString("../resources/images/appearance/body/def_body.png")));
-//    body.push_back(QPixmap(QString("../resources/images/appearance/body/blue_body.png")));
-//    body.push_back(QPixmap(QString("../resources/images/appearance/body/pink_body.png")));
-//    body.push_back(QPixmap(QString(":../resources/mages/appearance/body/icefire_body.png")));
-//    body.push_back(QPixmap(QString(":../resources/mages/appearance/body/cat_body.png")));
-//    body.push_back(QPixmap(QString(":../resources/mages/appearance/body/Gundam_body.png")));
-//    body.push_back(QPixmap(QString(":../resources/mages/appearance/body/drill_body.png")));
-//    body.push_back(QPixmap(QString(":../resources/mages/appearance/body/angel_body.png")));
-//
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/def_ears1.png")));
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/blue_ears1.png")));
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/pink_ears1.png")));
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/icefire_ears1.png")));
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/cat_ears1.png")));
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/Gundam_ears1.png")));
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/drill_ears1.png")));
-//    ears1.push_back(QPixmap(QString("../resources/images/appearance/ears/angel_ears1.png")));
-//
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/def_ears2.png")));
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/blue_ears2.png")));
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/pink_ears2.png")));
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/icefire_ears2.png")));
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/cat_ears2.png")));
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/Gundam_ears2.png")));
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/drill_ears2.png")));
-//    ears2.push_back(QPixmap(QString("../resources/images/appearance/ears/angel_ears2.png")));
     //载入装扮图片
     body.push_back(QPixmap(QString(":/images/appearance/body/def_body.png")));
     body.push_back(QPixmap(QString(":/images/appearance/body/blue_body.png")));
@@ -332,8 +328,8 @@ void Carrier::imageLoad() {
     ears2.push_back(QPixmap(QString(":/images/appearance/ears/Gundam_ears2.png")));
     ears2.push_back(QPixmap(QString(":/images/appearance/ears/drill_ears2.png")));
     ears2.push_back(QPixmap(QString(":/images/appearance/ears/angel_ears2.png")));
-    eyes.load("../resources/images/appearance/eyes/def_eyes.png");
-    stripe.load("../resources/images/appearance/stripe.png");
+    eyes.load(":/images/appearance/eyes/def_eyes.png");
+    stripe.load(":/images/appearance/stripe.png");
 }
 
 void Carrier::imageSet(QLabel *image, QPixmap map) {
@@ -343,6 +339,7 @@ void Carrier::imageSet(QLabel *image, QPixmap map) {
     image->resize(size,size);
     image->move(this->frameGeometry().width() / 2 - size / 2,
                 this->frameGeometry().height() / 2 - size / 2);
+    update();
 }
 
 void Carrier::initBtn() {
@@ -355,14 +352,14 @@ void Carrier::initBtn() {
     gameBtn = new QPushButton(this);//游戏按钮
     calenBtn = new QPushButton(this);//日历按钮
 
-    closeBtn->setIcon(QIcon("../resources/images/icon/close.png"));
-    dressBtn->setIcon(QIcon("../resources/images/icon/dress.png"));
-    moreBtn->setIcon(QIcon("../resources/images/icon/more.png"));
-    minBtn->setIcon(QIcon("../resources/images/icon/min.png"));
-    setBtn->setIcon(QIcon("../resources/images/icon/setting.png"));
-    musicBtn->setIcon(QIcon("../resources/images/icon/music.png"));
-    gameBtn->setIcon(QIcon("../resources/images/icon/game.png"));
-    calenBtn->setIcon(QIcon("../resources/images/icon/calendar.png"));
+    closeBtn->setIcon(QIcon(":/images/icon/close.png"));
+    dressBtn->setIcon(QIcon(":/images/icon/dress.png"));
+    moreBtn->setIcon(QIcon(":/images/icon/more.png"));
+    minBtn->setIcon(QIcon(":/images/icon/min.png"));
+    setBtn->setIcon(QIcon(":/images/icon/setting.png"));
+    musicBtn->setIcon(QIcon(":/images/icon/music.png"));
+    gameBtn->setIcon(QIcon(":/images/icon/game.png"));
+    calenBtn->setIcon(QIcon(":/images/icon/calendar.png"));
 
     reInitBtn();
 
@@ -382,7 +379,7 @@ void Carrier::initBtn() {
 
     calenWindow = new QCalendarWidget;//日历窗口
     calenWindow->setWindowFlags(Qt::FramelessWindowHint);//隐藏窗口标题栏
-    calenWindow->setWindowIcon(QIcon("../resources/images/icon/calendar.png")); //设置窗口图标
+    calenWindow->setWindowIcon(QIcon(":/images/icon/calendar.png")); //设置窗口图标
     calenWindow->resize(600,400);
 
 
@@ -448,14 +445,13 @@ void Carrier::initBtn() {
             setWindow->show();
             calenWindow->hide();
             //musicWindow->hide();
-        }
-        else
-            setWindow->hide();
+        } else setWindow->hide();
     });
     ///音乐按钮部分待做
     //connect(musicBtn,&QPushButton::clicked,this,&Carrier::musicBtnPush);
 
     connect(gameBtn,&QPushButton::clicked,this,&Carrier::gameBtnPush);
+
     connect(calenBtn,&QPushButton::clicked,this,[&](){
         if(calenWindow->isHidden()){
             //移动窗口坐标↓
@@ -468,8 +464,7 @@ void Carrier::initBtn() {
             //musicWindow->hide();
             setWindow->hide();
         }
-        else
-            calenWindow->hide();
+        else calenWindow->hide();
     });
 
     btnSwitch_1 = 0;//初始化按钮显示
@@ -517,7 +512,7 @@ void Carrier::gameBtnPush() {
     calenWindow->hide();
 
     //musicWindow->hide();
-    QDir dir( "C:\\Users\\NWT\\Desktop\\软件\\cxk.exe");//获取相对路径
+    QDir dir( "C:/Users/NWT/Desktop/cxk.exe");//获取相对路径
      QString temDir = dir.absolutePath();//通过相对路径获取绝对路径
      system(temDir.toLatin1());
 
@@ -533,11 +528,43 @@ void Carrier::gameBtnPush() {
 
 void Carrier::initSystemTray() {
     pSystemTray = new QSystemTrayIcon(this);
-    pSystemTray->setIcon(QIcon("../resources/images/icon/haro_icon.ico"));
-    pSystemTray->setToolTip("Hello, I'm Haro.");
+    pSystemTray->setIcon(QIcon(":/images/icon/close.png"));
+    pSystemTray->setToolTip("Hello, I'm Carrier.");
     pSystemTray->show();
     /// 绑定点击系统托盘事件 => 触发效果隐藏
     connect(pSystemTray,&QSystemTrayIcon::activated,this,[&](){
         if(this->isHidden()) this->show();
     });
+
+}
+
+/// 移动的时候各按键应该跟随移动
+void Carrier::mouseMoveEvent(QMouseEvent *event) {
+    if(event->buttons() & Qt::LeftButton)//鼠标左键按下并移动时，实现拖动窗口
+    {
+        this->move(event->globalPosition().toPoint()-moveLeftTop);
+        //伴随移动 服装界面
+        dressWindow->move(x()+frameGeometry().width()/2-10
+                          -btnSize*0.6-dressWindow->frameGeometry().width(),
+                          y()+frameGeometry().height()/2-150
+                          -dressWindow->frameGeometry().height()/2);
+        //伴随移动 设置界面 => 设置大小
+        setWindow->move(x() + frameGeometry().width() / 2
+                        -btnSize*(btnSwitch_1+btnSwitch_2 + 1.5)/4-setWindow->frameGeometry().width(),
+                        y()+frameGeometry().height()/2-size/5
+                        -setWindow->frameGeometry().height()/2);
+
+        // musicWindow->move(x()+frameGeometry().width()/2
+        // -btnSize*(btnSwitch_1+btnSwitch_2+1.5)/4-musicWindow->frameGeometry().width(),
+        // y()+frameGeometry().height()/2-size/5
+        // -musicWindow->frameGeometry().height()/2);
+        //日历界面
+        calenWindow->move(x()+frameGeometry().width()/2
+                          -btnSize*(btnSwitch_1+btnSwitch_2+1.5)/4-calenWindow->frameGeometry().width(),
+                          y()+frameGeometry().height()/2-size/5
+                          -calenWindow->frameGeometry().height()/2);
+
+
+        saveData();
+    }
 }
