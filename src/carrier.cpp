@@ -415,8 +415,12 @@ void Carrier::initBtn() {
 
         if(btnSwitch_2 == 0) btnSwitch_2=1;
         else btnSwitch_2=0;
-
         btnSwitchRole();
+        //隐藏设置按钮
+        setWindow->hide();
+        //隐藏日历按钮
+        calenWindow->hide();
+        //换装按钮
         dressWindow->hide();
     });
     ///将窗口最小化

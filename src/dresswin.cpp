@@ -55,6 +55,7 @@ void DressWin::initBtn() {
         bodyBtn[i]->move(80,site(i));
         bodyBtn[i]->setIcon(QIcon(Choose));  //=> 放置图标
         bodyBtn[i]->setCheckable(1);  // 设置按键为可选状态
+        bodyBtn[i]->setProperty("index",i);
         bodyBox->addButton(bodyBtn[i],i); //将按键添加到 bodyBox中
 
         earsBtn[i] = new QPushButton(this);
@@ -62,8 +63,10 @@ void DressWin::initBtn() {
         earsBtn[i]->move(280,site(i));
         earsBtn[i]->setIcon(QIcon(Choose));
         earsBtn[i]->setCheckable(1);
+        earsBtn[i]->setProperty("index",i);
         earsBox->addButton(earsBtn[i],i);
     }
+    //绑定事件
 //    connect(bodyBox,
 //            static_cast<void(QButtonGroup::*)(int)>(&QButtonGroup::buttonClicked),
 //            this,[&](int id){
@@ -74,6 +77,12 @@ void DressWin::initBtn() {
 //            this,[&](int id){
 //                earsid = id;
 //            });
+    connect(bodyBox, QOverload<QAbstractButton*>::of(&QButtonGroup::buttonClicked), this, [&](QAbstractButton* button){
+        bodyid = button->property("index").toInt();
+    });
+    connect(earsBox, QOverload<QAbstractButton*>::of(&QButtonGroup::buttonClicked), this, [&](QAbstractButton* button){
+        earsid = button->property("index").toInt();
+    });
 }
 
 int DressWin::getBodyid() const {
@@ -91,8 +100,7 @@ void DressWin::wheelEvent(QWheelEvent *event) {
 
     if(angleDelta.y() > 0){
         if(msg_y < 0) msg_y += speed;
-    }
-    else{
+    } else{
         if(msg_y > MaxHight)
             msg_y -= speed;
     }
@@ -114,11 +122,15 @@ void DressWin::paintEvent(QPaintEvent *) {
     }
 }
 
+//点击事件
 void DressWin::accept(std::vector<QPixmap> &body, std::vector<QPixmap> &ears, int bodyid, int earsid) {
     this->body = body;
     this->ears = ears;
+
     this->bodyid = bodyid;
     this->earsid = earsid;
+
+    //让被点击的服装按钮更换
     bodyBtn[bodyid]->setChecked(1);
     earsBtn[earsid]->setChecked(1);
 }
