@@ -18,16 +18,16 @@ Carrier 是一款智能桌面宠物, 通过将Ai组件嵌入程序, 实现与用
 
 基础展示
 
-![1](.\resources\doc\1.jpg)
+![1](resources/doc/1.jpg)
 
 工具箱展示
 
-![2](.\resources\doc\2.jpg)
+![2](resources/doc/2.jpg)
 
 
 
-![3](.\resources\doc\3.jpg)
+![3](resources/doc/3.jpg)
 
 换装功能展示
 
-![4](.\resources\doc\4.jpg)
+![4](/resources/doc/4.jpg)
