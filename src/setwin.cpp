@@ -12,10 +12,10 @@ SetWin::SetWin(QWidget *parent) :
     // 设置开机自启动 与 Carrier大小
     QBitmap bmp(this->size());//设置圆角边框
     bmp.fill();
-    QPainter p(&bmp);
-    p.setPen(Qt::NoPen);
-    p.setBrush(Qt::black);
-    p.drawRoundedRect(bmp.rect(),50,50);
+    QPainter painter(&bmp);
+    painter.setPen(Qt::NoPen);
+    painter.setBrush(Qt::black);
+    painter.drawRoundedRect(bmp.rect(),50,50);
     setMask(bmp);
     setWindowOpacity(0.95);//设置透明度
     setStyleSheet("background-color:white;");
@@ -24,6 +24,7 @@ SetWin::SetWin(QWidget *parent) :
     setWindowFlags(m_flags|Qt::WindowStaysOnTopHint);//保持窗口置顶2
 
     this->setWindowIcon(QIcon(":/images/icon/setting.png")); //设置窗口图标
+    painter.end();
 }
 
 SetWin::~SetWin() {

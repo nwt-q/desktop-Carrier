@@ -1,11 +1,17 @@
 cmake_minimum_required(VERSION 3.27)
-project(QT)
+project(Carrier)
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_AUTOMOC ON)
 set(CMAKE_AUTORCC ON)
 set(CMAKE_AUTOUIC ON)
 set(CMAKE_PREFIX_PATH "D:/QT/QTidea/6.6.1/mingw_64")
+set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++")
+set(app_icon_resource_windows "${CMAKE_CURRENT_SOURCE_DIR}/resources/res.qrc")
+# 复制resource.dat到构建目录的bin文件夹
+file(COPY resources DESTINATION ${CMAKE_BINARY_DIR}/bin)
+# 安装时复制整个resources目录到安装目录的bin文件夹
+install(DIRECTORY resources DESTINATION bin)
 
 find_package(Qt6 COMPONENTS
         Core
@@ -13,18 +19,26 @@ find_package(Qt6 COMPONENTS
         Widgets
         REQUIRED)
 
-add_executable(QT main.cpp
+add_executable(Carrier  main.cpp
         src/dresswin.cpp
         include/dresswin.h
         ui/ui_dresswin.h
+        ui/dresswin.ui
+        #============
         src/carrier.cpp
         include/carrier.h
         ui/ui_carrier.h
+        ui/carrier.ui
+        #============
         src/setwin.cpp
         include/setwin.h
+        ui/ui_setwin.h
+        ui/setwin.ui
+        #============
         resources/res.qrc
+        ${app_icon_resource_windows}
 )
-target_link_libraries(QT
+target_link_libraries(Carrier
         Qt::Core
         Qt::Gui
         Qt::Widgets

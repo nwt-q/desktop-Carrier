@@ -15,6 +15,7 @@
 #include <QLabel>
 #include <QCalendarWidget>
 #include <QDir>
+#include <QResource>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Carrier; }
@@ -39,7 +40,7 @@ public:
     void mousePressEvent(QMouseEvent *event) override;//鼠标点击事件-虚函数
     void mouseMoveEvent(QMouseEvent *event) override;//鼠标移动事件-虚函数
     void btnSwitchRole();//根据btnSwitch切换按钮状态
-    void gameBtnPush();
+    void gameBtnPush(); //游戏选择
 private:
     Ui::Carrier *ui;
     DressWin *dressWindow;//换装窗口指针

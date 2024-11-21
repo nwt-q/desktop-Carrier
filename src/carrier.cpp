@@ -2,10 +2,11 @@
 // Created by NWT on 2024/11/16.
 //
 
+#include <iostream>
 #include "../include/carrier.h"
 #include "../ui/ui_carrier.h"
-
-#define Dat "D:/CLion_Job/Carrier/resources/file/file.dat"  //基本数据存放区域
+//出现位置无法找到的情况
+#define Dat "./file/file.dat"  //基本数据存放区域
 #define Fly ":/images/movement/fly/%1.png"
 #define Error ":/images/movement/error/%1.png"
 #define Blink ":/images/movement/blink/%1.png"
@@ -13,15 +14,15 @@
 #define Question ":/images/movement/question/%1.png"
 #define CloseEyes ":/images/movement/closeEyes/%1.png"
 #define Wink ":/images/movement/wink/%1.png"
+#define Game ":/game/elsclock/game.link.lnk"
 
 Carrier::Carrier(QWidget *parent) : QMainWindow(parent)
 , ui(new Ui::Carrier) {
-
     ui->setupUi(this);
 
     setWindowFlags(Qt::FramelessWindowHint|Qt::Tool);//去掉窗口标题
     setAttribute(Qt::WA_TranslucentBackground);//设置背景透明
-    Qt::WindowFlags m_flags = windowFlags();//保持窗口置顶1
+    Qt::WindowFlags m_flags = windowFlags();//保持窗口置顶1 让标志窗口的标记始终为1
     setWindowFlags(m_flags|Qt::WindowStaysOnTopHint);//保持窗口置顶2
     InitPos();
 
@@ -79,19 +80,67 @@ Carrier::~Carrier() {
 }
 
 //对坐标进行初始化
+//出现问题无法索引上次运行时候的位置
 void Carrier::InitPos() {
-    int coordX,coordY;//桌面坐标
+
+    int coordX, coordY; // 桌面坐标
     QFile file(Dat);
+
     file.open(QIODevice::ReadOnly);
     QDataStream in(&file);
-    if(file.isOpen()) // 读取体型、 装扮编号参数、相对桌面坐标  => 保留用户设置操作  => 数据持久化
+    if(file.isOpen()) { // 读取体型、 装扮编号参数、相对桌面坐标  => 保留用户设置操作  => 数据持久化
+        //读取数据
         in >> size >> bodyid >> earsid >> coordX >> coordY;
+        // 检查读取的数据是否有效
+        if (size == 0 || bodyid == 0 || earsid == 0 || coordX == 0 || coordY == 0) {
+            // 如果数据无效，将值移动到屏幕中间
+            QScreen* screen = QGuiApplication::primaryScreen();
+            QRect screenGeometry = screen->geometry();
+            int screenWidth = screenGeometry.width();
+            int screenHeight = screenGeometry.height();
+
+            // 计算屏幕中心的坐标
+            int xPosition = (screenWidth - this->width()) / 2;
+            int yPosition = (screenHeight - this->height()) / 2;
+
+            // 将窗口移动到屏幕中心
+            move(xPosition, yPosition);
+            size = 200;
+            bodyid = 0;
+            earsid = 0;
+            coordX = xPosition;
+            coordY = yPosition;
+
+            qDebug() << xPosition << " " << yPosition;
+            qDebug() << "成功打开,BUT 数据为空👾";
+
+        } else {
+            // 如果数据有效，输出日志
+            //当前你的大小 身体样式 耳朵样式 坐标x 坐标y
+            qDebug() << size << bodyid << earsid << coordX << coordY;
+            qDebug() << size << bodyid << earsid << coordX << coordY;
+        }
+
+    }
     else{  // 如果数据为空 => 全部数据初始化
-        size = 400;
+
+        QScreen* screen = QGuiApplication::primaryScreen();
+        QRect screenGeometry = screen->geometry();
+        int screenWidth = screenGeometry.width();
+        int screenHeight = screenGeometry.height();
+
+        // 计算屏幕中心的坐标
+        int xPosition = (screenWidth - this->width()) / 2;
+        int yPosition = (screenHeight - this->height()) / 2;
+
+        // 将窗口移动到屏幕中心
+        move(xPosition, yPosition);
+        size = 200;
         bodyid = 0;
         earsid = 0;
-        coordX = x();
-        coordY = y();
+        coordX = xPosition;
+        coordY = yPosition;
+        std::cout << x() << " " << y() << "\n";
     }
     file.close();
     move(coordX,coordY);
@@ -232,6 +281,7 @@ void Carrier::saveData() {
     file.open(QIODevice::WriteOnly);
     QDataStream out(&file);
     out << size << bodyid << earsid << x() << y();//存储体型、装扮编号参数、窗口坐标
+    std::cout << size << " " << bodyid << " " << earsid << " " << x() << " " << y() << std::endl;
     file.close();
 }
 
@@ -387,10 +437,12 @@ void Carrier::initBtn() {
     ///适当使用Lambda 表达式 减轻代码量
     /// 光闭窗口按钮
     connect(closeBtn,&QPushButton::clicked,this,[&](){
+        saveData();
         dressWindow->close();
         setWindow->close();
         calenWindow->close();
         this->close();
+        exit(0);
     });
     /// 换装按钮
     connect(dressBtn,&QPushButton::clicked,this,[&](){
@@ -516,7 +568,7 @@ void Carrier::gameBtnPush() {
     calenWindow->hide();
 
     //musicWindow->hide();
-    QDir dir( "C:/Users/NWT/Desktop/cxk.exe");//获取相对路径
+     QDir dir(Game);//获取相对路径
      QString temDir = dir.absolutePath();//通过相对路径获取绝对路径
      system(temDir.toLatin1());
 

@@ -149,7 +149,7 @@ CMAKE_INSTALL_MANDIR:PATH=
 CMAKE_INSTALL_OLDINCLUDEDIR:PATH=/usr/include
 
 //Install path prefix, prepended onto install directories.
-CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/QT
+CMAKE_INSTALL_PREFIX:PATH=C:/Program Files (x86)/Carrier
 
 //Run-time variable data (LOCALSTATEDIR/run)
 CMAKE_INSTALL_RUNSTATEDIR:PATH=
@@ -205,7 +205,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=QT
+CMAKE_PROJECT_NAME:STATIC=Carrier
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=D:/MinGW/MinGW/bin/ranlib.exe
@@ -290,21 +290,30 @@ CMAKE_TAPI:FILEPATH=CMAKE_TAPI-NOTFOUND
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
+//Value Computed by CMake
+Carrier_BINARY_DIR:STATIC=D:/CLion_Job/desktop-Carrier/cmake-build-debug
+
+//Value Computed by CMake
+Carrier_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Carrier_SOURCE_DIR:STATIC=D:/CLion_Job/desktop-Carrier
+
+//Value Computed by CMake
+Carriers_BINARY_DIR:STATIC=D:/CLion_Job/desktop-Carrier/cmake-build-debug
+
+//Value Computed by CMake
+Carriers_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+Carriers_SOURCE_DIR:STATIC=D:/CLion_Job/desktop-Carrier
+
 //Additional directories where find(Qt6 ...) host Qt components
 // are searched
 QT_ADDITIONAL_HOST_PACKAGES_PREFIX_PATH:STRING=
 
 //Additional directories where find(Qt6 ...) components are searched
 QT_ADDITIONAL_PACKAGES_PREFIX_PATH:STRING=
-
-//Value Computed by CMake
-QT_BINARY_DIR:STATIC=D:/CLion_Job/desktop-Carrier/cmake-build-debug
-
-//Value Computed by CMake
-QT_IS_TOP_LEVEL:STATIC=ON
-
-//Value Computed by CMake
-QT_SOURCE_DIR:STATIC=D:/CLion_Job/desktop-Carrier
 
 //The directory containing a CMake configuration file for Qt6CoreTools.
 Qt6CoreTools_DIR:PATH=D:/QT/QTidea/6.6.1/mingw_64/lib/cmake/Qt6CoreTools
@@ -1282,5 +1291,5 @@ Vulkan_LIBRARY-ADVANCED:INTERNAL=1
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 //CMAKE_INSTALL_PREFIX during last run
-_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/QT
+_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/Carrier
 

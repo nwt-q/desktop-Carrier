@@ -120,6 +120,8 @@ void DressWin::paintEvent(QPaintEvent *) {
         painter.drawPixmap(200,sitep(i),240,240,dummy);
         painter.drawPixmap(200,sitep(i),240,240,ears[i]);
     }
+    //绘制图像释放资源
+    painter.end();
 }
 
 //点击事件

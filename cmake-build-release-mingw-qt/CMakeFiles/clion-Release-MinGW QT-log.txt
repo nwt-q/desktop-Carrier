@@ -1,0 +1,5 @@
+"D:\CLion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Release "-DCMAKE_MAKE_PROGRAM=D:/CLion/CLion 2023.3.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\CLion_Job\desktop-Carrier -B D:\CLion_Job\desktop-Carrier\cmake-build-release-mingw-qt
+-- Could NOT find WrapVulkanHeaders (missing: Vulkan_INCLUDE_DIR) 
+-- Configuring done (4.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt

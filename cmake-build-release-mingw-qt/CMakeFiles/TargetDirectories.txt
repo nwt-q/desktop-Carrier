@@ -1,0 +1,9 @@
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/Carrier.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/edit_cache.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/rebuild_cache.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/list_install_components.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/install.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/install/local.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/install/strip.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/Carrier_autogen_timestamp_deps.dir
+D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/CMakeFiles/Carrier_autogen.dir
