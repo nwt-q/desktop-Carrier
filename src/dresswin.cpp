@@ -54,7 +54,7 @@ void DressWin::initBtn() {
         bodyBtn[i]->setFixedSize(80,40);
         bodyBtn[i]->move(80,site(i));
         bodyBtn[i]->setIcon(QIcon(Choose));  //=> 放置图标
-        bodyBtn[i]->setCheckable(1);  // 设置按键为可选状态
+        bodyBtn[i]->setCheckable(true);  // 设置按键为可选状态
         bodyBtn[i]->setProperty("index",i);
         bodyBox->addButton(bodyBtn[i],i); //将按键添加到 bodyBox中
 
@@ -62,7 +62,7 @@ void DressWin::initBtn() {
         earsBtn[i]->setFixedSize(80,40);
         earsBtn[i]->move(280,site(i));
         earsBtn[i]->setIcon(QIcon(Choose));
-        earsBtn[i]->setCheckable(1);
+        earsBtn[i]->setCheckable(true);
         earsBtn[i]->setProperty("index",i);
         earsBox->addButton(earsBtn[i],i);
     }
@@ -133,8 +133,8 @@ void DressWin::accept(std::vector<QPixmap> &body, std::vector<QPixmap> &ears, in
     this->earsid = earsid;
 
     //让被点击的服装按钮更换
-    bodyBtn[bodyid]->setChecked(1);
-    earsBtn[earsid]->setChecked(1);
+    bodyBtn[bodyid]->setChecked(true);
+    earsBtn[earsid]->setChecked(true);
 }
 
 DressWin::~DressWin()

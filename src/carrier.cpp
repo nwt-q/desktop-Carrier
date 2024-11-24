@@ -180,7 +180,7 @@ void Carrier::eyesMovement() {
     static int flag = 0,second1 = 0,second2 = 0,earSwitch = 1;
     //控制随机眨眼
     // rand
-    int valve = rand() % 200;
+    int valve = my_rand(0,199);
 
     //控制眨眼动作
     if(face < 0 && spMove < 0){  //控制眨眼动作
@@ -255,9 +255,9 @@ void Carrier::eyesMovement() {
 
 void Carrier::specialMovementLoad() { //用于加载特殊图片
     for(int i = 1;i <= 11;i++)
-        spMovement.push_back(QPixmap(QString(Error).arg(i)));
+        spMovement.emplace_back(QString(Error).arg(i));
     for(int i = 1;i <= 22;i++)
-        spMovement.push_back(QPixmap(QString(Fly).arg(i)));
+        spMovement.emplace_back(QString(Fly).arg(i));
 
     spMove = -1;
 }
@@ -295,7 +295,7 @@ void Carrier::mousePressEvent(QMouseEvent *event) {
     if(event->button() == Qt::LeftButton ) { //鼠标右键被按下
         moveLeftTop = event->pos();
         if(face < 0 && spMove < 0){//随机播放表情
-            face = rand() % ( faceSum - 1 ) + 1;
+            face = my_rand(0,  ( faceSum - 1 ));
             flag++;
             if(flag == 10){//触发蓝屏
                 flag = 0;
@@ -334,11 +334,10 @@ void Carrier::btnSwitchRole() {
     gameBtn->setVisible(btnSwitch_2);
     calenBtn->setVisible(btnSwitch_2);
 
-     //移动窗口坐标↓
-    setWindow->move(x()+frameGeometry().width()/2
-     -btnSize*(btnSwitch_1+btnSwitch_2+1.5)/4-setWindow->frameGeometry().width(),
-     y()+frameGeometry().height()/2-size/5
-     -setWindow->frameGeometry().height()/2);
+    setWindow->move(
+            x() + (frameGeometry().width() / 2 - (btnSize * (btnSwitch_1 + btnSwitch_2 + 1.5) / 4) - setWindow->frameGeometry().width() / 2),
+            y() + (frameGeometry().height() / 2 - (size / 5) - setWindow->frameGeometry().height() / 2)
+    );
 
     //移动窗口坐标↓
     // musicWindow->move(x()+frameGeometry().width()/2
@@ -346,46 +345,46 @@ void Carrier::btnSwitchRole() {
     // y()+frameGeometry().height()/2-size/5
     // -musicWindow->frameGeometry().height()/2);
     //移动窗口坐标↓
-    calenWindow->move(x() + frameGeometry().width() / 2
-                      - btnSize*(btnSwitch_1 + btnSwitch_2 + 1.5) / 4 - calenWindow->frameGeometry().width(),
-                      y() + frameGeometry().height() / 2 - size / 5
-                      - calenWindow->frameGeometry().height() / 2);
+    calenWindow->move(
+            x() + frameGeometry().width() / 2 - btnSize * (btnSwitch_1 + btnSwitch_2 + 1.5) / 4 - calenWindow->frameGeometry().width(),
+            y() + frameGeometry().height() / 2 - size / 5 - calenWindow->frameGeometry().height() / 2
+    );
 }
 
 
 void Carrier::imageLoad() {
     //载入装扮图片
-    body.push_back(QPixmap(QString(":/images/appearance/body/def_body.png")));
-    body.push_back(QPixmap(QString(":/images/appearance/body/blue_body.png")));
-    body.push_back(QPixmap(QString(":/images/appearance/body/pink_body.png")));
-    body.push_back(QPixmap(QString(":/images/appearance/body/icefire_body.png")));
-    body.push_back(QPixmap(QString(":/images/appearance/body/cat_body.png")));
-    body.push_back(QPixmap(QString(":/images/appearance/body/Gundam_body.png")));
-    body.push_back(QPixmap(QString(":/images/appearance/body/drill_body.png")));
-    body.push_back(QPixmap(QString(":/images/appearance/body/angel_body.png")));
+    body.emplace_back(QString(":/images/appearance/body/def_body.png"));
+    body.emplace_back(QString(":/images/appearance/body/blue_body.png"));
+    body.emplace_back(QString(":/images/appearance/body/pink_body.png"));
+    body.emplace_back(QString(":/images/appearance/body/icefire_body.png"));
+    body.emplace_back(QString(":/images/appearance/body/cat_body.png"));
+    body.emplace_back(QString(":/images/appearance/body/Gundam_body.png"));
+    body.emplace_back(QString(":/images/appearance/body/drill_body.png"));
+    body.emplace_back(QString(":/images/appearance/body/angel_body.png"));
 
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/def_ears1.png")));
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/blue_ears1.png")));
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/pink_ears1.png")));
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/icefire_ears1.png")));
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/cat_ears1.png")));
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/Gundam_ears1.png")));
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/drill_ears1.png")));
-    ears1.push_back(QPixmap(QString(":/images/appearance/ears/angel_ears1.png")));
+    ears1.emplace_back(QString(":/images/appearance/ears/def_ears1.png"));
+    ears1.emplace_back(QString(":/images/appearance/ears/blue_ears1.png"));
+    ears1.emplace_back(QString(":/images/appearance/ears/pink_ears1.png"));
+    ears1.emplace_back(QString(":/images/appearance/ears/icefire_ears1.png"));
+    ears1.emplace_back(QString(":/images/appearance/ears/cat_ears1.png"));
+    ears1.emplace_back(QString(":/images/appearance/ears/Gundam_ears1.png"));
+    ears1.emplace_back(QString(":/images/appearance/ears/drill_ears1.png"));
+    ears1.emplace_back(QString(":/images/appearance/ears/angel_ears1.png"));
 
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/def_ears2.png")));
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/blue_ears2.png")));
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/pink_ears2.png")));
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/icefire_ears2.png")));
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/cat_ears2.png")));
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/Gundam_ears2.png")));
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/drill_ears2.png")));
-    ears2.push_back(QPixmap(QString(":/images/appearance/ears/angel_ears2.png")));
+    ears2.emplace_back(QString(":/images/appearance/ears/def_ears2.png"));
+    ears2.emplace_back(QString(":/images/appearance/ears/blue_ears2.png"));
+    ears2.emplace_back(QString(":/images/appearance/ears/pink_ears2.png"));
+    ears2.emplace_back(QString(":/images/appearance/ears/icefire_ears2.png"));
+    ears2.emplace_back(QString(":/images/appearance/ears/cat_ears2.png"));
+    ears2.emplace_back(QString(":/images/appearance/ears/Gundam_ears2.png"));
+    ears2.emplace_back(QString(":/images/appearance/ears/drill_ears2.png"));
+    ears2.emplace_back(QString(":/images/appearance/ears/angel_ears2.png"));
     eyes.load(":/images/appearance/eyes/def_eyes.png");
     stripe.load(":/images/appearance/stripe.png");
 }
 
-void Carrier::imageSet(QLabel *image, QPixmap map) {
+void Carrier::imageSet(QLabel *image, const QPixmap& map) {
     //根据size设定各图片大小和坐标
     image->setPixmap(map.scaled(size,size));//使用scaled修改图片大小，能避免图片因缩放模糊
     image->setScaledContents(true);
@@ -618,12 +617,25 @@ void Carrier::mouseMoveEvent(QMouseEvent *event) {
         // y()+frameGeometry().height()/2-size/5
         // -musicWindow->frameGeometry().height()/2);
         //日历界面
-        calenWindow->move(x()+frameGeometry().width()/2
+        calenWindow->move(x() + frameGeometry().width()/2
                           -btnSize*(btnSwitch_1+btnSwitch_2+1.5)/4-calenWindow->frameGeometry().width(),
                           y()+frameGeometry().height()/2-size/5
                           -calenWindow->frameGeometry().height()/2);
 
-
         saveData();
     }
+}
+
+// 函数返回一个种子的随机数生成器
+inline std::mt19937& Carrier::generator() {
+    // 生成器只会被种子一次（每个线程）
+    static thread_local std::mt19937 gen(std::random_device{}());
+    return gen;
+}
+
+// 生成指定范围内的整数
+template<typename T, std::enable_if_t<std::is_integral_v<T>>*>
+T Carrier::my_rand(T min, T max) {
+    std::uniform_int_distribution<T> dist(min, max);
+    return dist(generator());
 }

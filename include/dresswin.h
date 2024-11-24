@@ -53,12 +53,12 @@ private:
 
 private:
     Ui::DressWin * ui;
-    QButtonGroup *bodyBox,*earsBox; //按钮组 => 用于捕获点击事件
+    QButtonGroup *bodyBox{},*earsBox{}; //按钮组 => 用于捕获点击事件
     std::vector<QPixmap> body,ears; //各部件对应图片容器 => 将图片放容器中
-    QPushButton *bodyBtn[NUM],*earsBtn[NUM];//各部件对应按钮容器
+    QPushButton *bodyBtn[NUM]{},*earsBtn[NUM]{};//各部件对应按钮容器
     int msg_y = 0;  //鼠标中键滑动轴对应y坐标
     int Costumes_amount = NUM;  //装扮数量
-    int bodyid,earsid; //身体和耳朵对应装扮序号
+    int bodyid{},earsid{}; //身体和耳朵对应装扮序号
 };
 
 

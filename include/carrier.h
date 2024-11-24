@@ -16,6 +16,7 @@
 #include <QCalendarWidget>
 #include <QDir>
 #include <QResource>
+#include <random>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class Carrier; }
@@ -31,7 +32,7 @@ public:
     void reInitBtn();//修改大小时再次初始化按钮
     void initSystemTray();//初始化系统托盘
     void imageLoad();//各部位图片载入, 事件绑定
-    inline void imageSet(QLabel *image,QPixmap map);//设置各部位图片
+    inline void imageSet(QLabel *image,const QPixmap& map);//设置各部位图片
     void eyesMovementLoad();//眼部动作载入
     void eyesMovement(); //眼部动作事件
     void specialMovementLoad();//特殊动作载入
@@ -41,6 +42,9 @@ public:
     void mouseMoveEvent(QMouseEvent *event) override;//鼠标移动事件-虚函数
     void btnSwitchRole();//根据btnSwitch切换按钮状态
     void gameBtnPush(); //游戏选择
+    static inline std::mt19937& generator();
+    template<typename T, std::enable_if_t<std::is_integral_v<T>>* = nullptr>
+    T my_rand(T min, T max);
 private:
     //对成员进行列表初始化
     Ui::Carrier *ui;
