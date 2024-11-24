@@ -436,6 +436,7 @@ D:/CLion_Job/desktop-Carrier/include/carrier.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qwidget.h
+D:/CLion_Job/desktop-Carrier/ui/ui_carrier.h
 D:/CLion_Job/desktop-Carrier/include/dresswin.h
  mmc:Q_OBJECT
  mdp:D:/CLion_Job/desktop-Carrier/cmake-build-debug/Carrier_autogen/moc_predefs.h
@@ -813,7 +814,6 @@ D:/CLion_Job/desktop-Carrier/include/dresswin.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qtwidgetsexports.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qwidget.h
-D:/CLion_Job/desktop-Carrier/ui/ui_carrier.h
 D:/CLion_Job/desktop-Carrier/include/setwin.h
  mmc:Q_OBJECT
  mdp:D:/CLion_Job/desktop-Carrier/cmake-build-debug/Carrier_autogen/moc_predefs.h
@@ -1175,9 +1175,9 @@ D:/CLion_Job/desktop-Carrier/include/setwin.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h
  mdp:D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets/qwidget.h
 D:/CLion_Job/desktop-Carrier/ui/ui_dresswin.h
-D:/CLion_Job/desktop-Carrier/ui/ui_setwin.h
 D:/CLion_Job/desktop-Carrier/src/carrier.cpp
  uic:../ui/ui_carrier.h
+D:/CLion_Job/desktop-Carrier/ui/ui_setwin.h
 D:/CLion_Job/desktop-Carrier/main.cpp
 D:/CLion_Job/desktop-Carrier/src/dresswin.cpp
  uic:../ui/ui_dresswin.h

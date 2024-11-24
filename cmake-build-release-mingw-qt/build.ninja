@@ -50,7 +50,7 @@ cmake_ninja_workdir = D$:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt
 build cmake_object_order_depends_target_Carrier: phony || Carrier_autogen Carrier_autogen/3YJK5W5UP7/qrc_res.cpp Carrier_autogen/mocs_compilation.cpp Carrier_autogen/timestamp Carrier_autogen_timestamp_deps
 
 build CMakeFiles/Carrier.dir/Carrier_autogen/mocs_compilation.cpp.obj: CXX_COMPILER__Carrier_unscanned_Release D$:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/mocs_compilation.cpp || cmake_object_order_depends_target_Carrier
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Carrier.dir\Carrier_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
   INCLUDES = -isystem D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/include -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtCore -isystem D:/QT/QTidea/6.6.1/mingw_64/include -isystem D:/QT/QTidea/6.6.1/mingw_64/mkspecs/win32-g++ -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtGui -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets
@@ -58,7 +58,7 @@ build CMakeFiles/Carrier.dir/Carrier_autogen/mocs_compilation.cpp.obj: CXX_COMPI
   OBJECT_FILE_DIR = CMakeFiles\Carrier.dir\Carrier_autogen
 
 build CMakeFiles/Carrier.dir/main.cpp.obj: CXX_COMPILER__Carrier_unscanned_Release D$:/CLion_Job/desktop-Carrier/main.cpp || cmake_object_order_depends_target_Carrier
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Carrier.dir\main.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
   INCLUDES = -isystem D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/include -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtCore -isystem D:/QT/QTidea/6.6.1/mingw_64/include -isystem D:/QT/QTidea/6.6.1/mingw_64/mkspecs/win32-g++ -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtGui -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets
@@ -66,7 +66,7 @@ build CMakeFiles/Carrier.dir/main.cpp.obj: CXX_COMPILER__Carrier_unscanned_Relea
   OBJECT_FILE_DIR = CMakeFiles\Carrier.dir
 
 build CMakeFiles/Carrier.dir/src/dresswin.cpp.obj: CXX_COMPILER__Carrier_unscanned_Release D$:/CLion_Job/desktop-Carrier/src/dresswin.cpp || cmake_object_order_depends_target_Carrier
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Carrier.dir\src\dresswin.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
   INCLUDES = -isystem D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/include -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtCore -isystem D:/QT/QTidea/6.6.1/mingw_64/include -isystem D:/QT/QTidea/6.6.1/mingw_64/mkspecs/win32-g++ -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtGui -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets
@@ -74,7 +74,7 @@ build CMakeFiles/Carrier.dir/src/dresswin.cpp.obj: CXX_COMPILER__Carrier_unscann
   OBJECT_FILE_DIR = CMakeFiles\Carrier.dir\src
 
 build CMakeFiles/Carrier.dir/src/carrier.cpp.obj: CXX_COMPILER__Carrier_unscanned_Release D$:/CLion_Job/desktop-Carrier/src/carrier.cpp || cmake_object_order_depends_target_Carrier
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Carrier.dir\src\carrier.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
   INCLUDES = -isystem D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/include -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtCore -isystem D:/QT/QTidea/6.6.1/mingw_64/include -isystem D:/QT/QTidea/6.6.1/mingw_64/mkspecs/win32-g++ -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtGui -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets
@@ -82,7 +82,7 @@ build CMakeFiles/Carrier.dir/src/carrier.cpp.obj: CXX_COMPILER__Carrier_unscanne
   OBJECT_FILE_DIR = CMakeFiles\Carrier.dir\src
 
 build CMakeFiles/Carrier.dir/src/setwin.cpp.obj: CXX_COMPILER__Carrier_unscanned_Release D$:/CLion_Job/desktop-Carrier/src/setwin.cpp || cmake_object_order_depends_target_Carrier
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Carrier.dir\src\setwin.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
   INCLUDES = -isystem D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/include -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtCore -isystem D:/QT/QTidea/6.6.1/mingw_64/include -isystem D:/QT/QTidea/6.6.1/mingw_64/mkspecs/win32-g++ -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtGui -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets
@@ -90,7 +90,7 @@ build CMakeFiles/Carrier.dir/src/setwin.cpp.obj: CXX_COMPILER__Carrier_unscanned
   OBJECT_FILE_DIR = CMakeFiles\Carrier.dir\src
 
 build CMakeFiles/Carrier.dir/Carrier_autogen/3YJK5W5UP7/qrc_res.cpp.obj: CXX_COMPILER__Carrier_unscanned_Release D$:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/3YJK5W5UP7/qrc_res.cpp || cmake_object_order_depends_target_Carrier
-  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\Carrier.dir\Carrier_autogen\3YJK5W5UP7\qrc_res.cpp.obj.d
   FLAGS = -O3 -DNDEBUG -fdiagnostics-color=always
   INCLUDES = -isystem D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/Carrier_autogen/include -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtCore -isystem D:/QT/QTidea/6.6.1/mingw_64/include -isystem D:/QT/QTidea/6.6.1/mingw_64/mkspecs/win32-g++ -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtGui -isystem D:/QT/QTidea/6.6.1/mingw_64/include/QtWidgets
@@ -105,10 +105,10 @@ build CMakeFiles/Carrier.dir/Carrier_autogen/3YJK5W5UP7/qrc_res.cpp.obj: CXX_COM
 #############################################
 # Link the executable Carrier.exe
 
-build Carrier.exe: CXX_EXECUTABLE_LINKER__Carrier_Release CMakeFiles/Carrier.dir/Carrier_autogen/mocs_compilation.cpp.obj CMakeFiles/Carrier.dir/main.cpp.obj CMakeFiles/Carrier.dir/src/dresswin.cpp.obj CMakeFiles/Carrier.dir/src/carrier.cpp.obj CMakeFiles/Carrier.dir/src/setwin.cpp.obj CMakeFiles/Carrier.dir/Carrier_autogen/3YJK5W5UP7/qrc_res.cpp.obj | D$:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Widgets.a D$:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Gui.a D$:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Core.a D$:/QT/QTidea/6.6.1/mingw_64/lib/libQt6EntryPoint.a || Carrier_autogen Carrier_autogen_timestamp_deps
+build Carrier.exe: CXX_EXECUTABLE_LINKER__Carrier_Release CMakeFiles/Carrier.dir/Carrier_autogen/mocs_compilation.cpp.obj CMakeFiles/Carrier.dir/main.cpp.obj CMakeFiles/Carrier.dir/src/dresswin.cpp.obj CMakeFiles/Carrier.dir/src/carrier.cpp.obj CMakeFiles/Carrier.dir/src/setwin.cpp.obj CMakeFiles/Carrier.dir/Carrier_autogen/3YJK5W5UP7/qrc_res.cpp.obj | D$:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Widgets.a D$:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Gui.a D$:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Core.a || Carrier_autogen Carrier_autogen_timestamp_deps
   FLAGS = -O3 -DNDEBUG
-  LINK_FLAGS = -static-libgcc -static-libstdc++  -mwindows
-  LINK_LIBRARIES = D:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Widgets.a  D:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Gui.a  D:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  D:/QT/QTidea/6.6.1/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  LINK_FLAGS = -static-libgcc -static-libstdc++
+  LINK_LIBRARIES = D:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Widgets.a  D:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Gui.a  D:/QT/QTidea/6.6.1/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Carrier.dir
   POST_BUILD = cmd.exe /C "cd /D D:\CLion_Job\desktop-Carrier\cmake-build-release-mingw-qt && "D:\CLion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E make_directory D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/plugins/platforms/ && cd /D D:\CLion_Job\desktop-Carrier\cmake-build-release-mingw-qt && "D:\CLion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E copy D:/QT/QTidea/6.6.1/mingw_64/plugins/platforms/qwindows.dll D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt/plugins/platforms/ && cd /D D:\CLion_Job\desktop-Carrier\cmake-build-release-mingw-qt && "D:\CLion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E copy D:/QT/QTidea/6.6.1/mingw_64/bin/Qt6Core.dll D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt && cd /D D:\CLion_Job\desktop-Carrier\cmake-build-release-mingw-qt && "D:\CLion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E copy D:/QT/QTidea/6.6.1/mingw_64/bin/Qt6Gui.dll D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt && cd /D D:\CLion_Job\desktop-Carrier\cmake-build-release-mingw-qt && "D:\CLion\CLion 2023.3.4\bin\cmake\win\x64\bin\cmake.exe" -E copy D:/QT/QTidea/6.6.1/mingw_64/bin/Qt6Widgets.dll D:/CLion_Job/desktop-Carrier/cmake-build-release-mingw-qt"
   PRE_LINK = cd .

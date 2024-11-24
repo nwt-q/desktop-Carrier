@@ -32,11 +32,9 @@ SetWin::~SetWin() {
 }
 
 void SetWin::setSize(int size) {
+    QFont ft;QPalette pa;
     CarrierSize = size;
-
-    QFont ft;
     ft.setPointSize(12);
-    QPalette pa;
     pa.setColor(QPalette::WindowText,Qt::blue);
     sizeNum = new QLabel(this);
     sizeNum->move(120,100);
@@ -49,11 +47,11 @@ void SetWin::setSize(int size) {
     ui->sizeSlider->setValue(CarrierSize);
 }
 
-int SetWin::getSize() {
+int SetWin::getSize() const {
     return CarrierSize;
 }
 
-void SetWin::on_sizeSlider_valueChanged(int value) {
+[[maybe_unused]] void SetWin::on_sizeSlider_valueChanged(int value) {
     //对滑块值进行实时更新
     CarrierSize = value;
     sizeNum->setNum(CarrierSize);

@@ -19,6 +19,12 @@
 Carrier::Carrier(QWidget *parent) : QMainWindow(parent)
 , ui(new Ui::Carrier) {
     ui->setupUi(this);
+    timer = new QTimer;
+
+    bodyImage = new QLabel(this);//身体图片指针
+    eyesImage = new QLabel(this);//眼部图片指针
+    stripeImage = new QLabel(this);//屏幕遮盖条纹图片指针
+    earsImage = new QLabel(this);//耳朵图片指针
 
     setWindowFlags(Qt::FramelessWindowHint|Qt::Tool);//去掉窗口标题
     setAttribute(Qt::WA_TranslucentBackground);//设置背景透明
@@ -26,18 +32,12 @@ Carrier::Carrier(QWidget *parent) : QMainWindow(parent)
     setWindowFlags(m_flags|Qt::WindowStaysOnTopHint);//保持窗口置顶2
     InitPos();
 
-    timer = new QTimer;
     timer->start(40);//动画速度
     connect(timer,&QTimer::timeout,this,&Carrier::eyesMovement);//关联眼部动作
 
     imageLoad();//载入部位图片
     eyesMovementLoad();//载入表情图片
     specialMovementLoad();//载入特殊动作图片
-
-    bodyImage = new QLabel(this);//身体图片指针
-    eyesImage = new QLabel(this);//眼部图片指针
-    stripeImage = new QLabel(this);//屏幕遮盖条纹图片指针
-    earsImage = new QLabel(this);//耳朵图片指针
 
 
     imageSet(bodyImage,body[bodyid]);
@@ -146,27 +146,29 @@ void Carrier::InitPos() {
     move(coordX,coordY);
 }
 
+// emplace_back 通常比 push_back 更高效，因为它直接在容器的内存中构造元素，避免了额外的复制或移动操作。
+// push_back 需要先复制或移动元素到一个临时对象，然后再将其移动到容器中。
 void Carrier::eyesMovementLoad() {
     faceNum.push_back(9);//帧数-例：9代表9帧
     faceNum.push_back(0);//起始位置-例：0代表该表情第一张图片下标
     for(int i = 1; i<=faceNum[0]; i++)//表情1-眨眼
-        movement.push_back(QPixmap(QString(Blink).arg(i)));
+        movement.emplace_back(QString(Blink).arg(i));
     faceNum.push_back(12);
     faceNum.push_back(9);
     for(int i = 1; i<=faceNum[2]; i++)//表情2-心动
-        movement.push_back(QPixmap(QString(Heart).arg(i)));
+        movement.emplace_back(QString(Heart).arg(i));
     faceNum.push_back(16);
     faceNum.push_back(21);
     for(int i = 1; i<=faceNum[4]; i++)//表情3-疑惑
-        movement.push_back(QPixmap(QString(Question).arg(i)));
+        movement.emplace_back(QString(Question).arg(i));
     faceNum.push_back(15);
     faceNum.push_back(37);
     for(int i = 1; i<=faceNum[6]; i++)//表情4-闭眼
-        movement.push_back(QPixmap(QString(CloseEyes).arg(i)));
+        movement.emplace_back(QString(CloseEyes).arg(i));
     faceNum.push_back(9);
     faceNum.push_back(52);
     for(int i = 1; i<=faceNum[8]; i++)//表情5-单眨眼
-        movement.push_back(QPixmap(QString(Wink).arg(i)));
+        movement.emplace_back(QString(Wink).arg(i));
 
     face = -1;//表情序号初始化为-1，不生效
     faceSum = 5;//表情数量
@@ -177,6 +179,7 @@ void Carrier::eyesMovement() {
     //各种静态变量，用于计数、记录状态等↓
     static int flag = 0,second1 = 0,second2 = 0,earSwitch = 1;
     //控制随机眨眼
+    // rand
     int valve = rand() % 200;
 
     //控制眨眼动作
@@ -534,7 +537,7 @@ void Carrier::reInitBtn() {
 
     if(btnSize < 300)//限制按钮大小
         btnSize = 300;
-    //按钮的坐标和大小参数
+    //按钮的坐标和大小参数 => 捕获当前窗口的大小 => 放置在一半位置
     int btnX = this->frameGeometry().width() / 2 - btnSize * 3 / 5 - 5;
     int btnY = this->frameGeometry().height() / 2 - btnSize / 4;
     int btnWidth = btnSize / 5;

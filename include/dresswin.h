@@ -38,9 +38,10 @@ class DressWin : public QWidget {
     Q_OBJECT
 public:
     explicit DressWin(QWidget *parent = nullptr);
-    ~DressWin();
-    int getBodyid() const; // 获取主要装扮
-    int getEarsid() const; // 获取耳朵装扮
+    ~DressWin() override;
+    ///这里的[[nodiscard]]是一个属性，用于告诉编译器这个函数返回的值不应该被忽略
+    [[nodiscard]] int getBodyid() const; // 获取主要装扮
+    [[nodiscard]] int getEarsid() const; // 获取耳朵装扮
     void wheelEvent(QWheelEvent *event) override;  //鼠标滚轮事件
     void paintEvent(QPaintEvent *) override; //绘画事件
     void accept(std::vector<QPixmap>& body,std::vector<QPixmap>& ears,int bodyid,int earsid);  //换装

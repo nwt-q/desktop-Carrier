@@ -42,17 +42,18 @@ public:
     void btnSwitchRole();//根据btnSwitch切换按钮状态
     void gameBtnPush(); //游戏选择
 private:
+    //对成员进行列表初始化
     Ui::Carrier *ui;
-    DressWin *dressWindow;//换装窗口指针
-    SetWin *setWindow;//设置大小窗口指针
+    DressWin *dressWindow{};//换装窗口指针
+    SetWin *setWindow{};//设置大小窗口指针
 
-    int size; //设置体型大小
-    int bodyid,earsid; //身体和耳朵对应装扮序号
-    int face; //表情序号
-    int faceSum; //表情数量
-    int spMove;//特殊动作序号
-    int btnSize;//按钮大小
-    int btnSwitch_1,btnSwitch_2; //菜单按钮显示开关
+    int size{}; //设置体型大小
+    int bodyid{},earsid{}; //身体和耳朵对应装扮序号
+    int face{}; //表情序号
+    int faceSum{}; //表情数量
+    int spMove{};//特殊动作序号
+    int btnSize{};//按钮大小
+    int btnSwitch_1{},btnSwitch_2{}; //菜单按钮显示开关
     QPoint moveLeftTop;//坐标点
     QTimer *timer;  //定时器
 
@@ -61,20 +62,20 @@ private:
     std::vector<QPixmap> movement;//表情图片容器
     std::vector<QPixmap> spMovement;//特殊动作图片容器
     QPixmap eyes,stripe;//眼睛和眼部遮罩
-    std::vector<int>faceNum;//每个表情对应帧数与起始位置
+    std::vector<int> faceNum;//每个表情对应帧数与起始位置
 
-    QPushButton *closeBtn;//关闭按钮
-    QPushButton *dressBtn;//换装按钮
-    QPushButton *moreBtn;//展开更多按钮
-    QPushButton *minBtn;//最小化按钮
-    QPushButton *setBtn;//设置按钮
-    QPushButton *musicBtn;//音乐按钮
-    QPushButton *gameBtn;//游戏按钮
-    QPushButton *calenBtn;//日历按钮
+    QPushButton *closeBtn{};//关闭按钮
+    QPushButton *dressBtn{};//换装按钮
+    QPushButton *moreBtn{};//展开更多按钮
+    QPushButton *minBtn{};//最小化按钮
+    QPushButton *setBtn{};//设置按钮
+    QPushButton *musicBtn{};//音乐按钮
+    QPushButton *gameBtn{};//游戏按钮
+    QPushButton *calenBtn{};//日历按钮
 
-    QSystemTrayIcon* pSystemTray;//系统托盘
+    QSystemTrayIcon* pSystemTray{};//系统托盘
 
-    QCalendarWidget *calenWindow;//日历窗口指针
+    QCalendarWidget *calenWindow{};//日历窗口指针
 
 };
 
