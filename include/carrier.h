@@ -18,6 +18,7 @@
 #include <QResource>
 #include <random>
 
+
 QT_BEGIN_NAMESPACE
 namespace Ui { class Carrier; }
 QT_END_NAMESPACE
@@ -42,6 +43,7 @@ public:
     void mouseMoveEvent(QMouseEvent *event) override;//鼠标移动事件-虚函数
     void btnSwitchRole();//根据btnSwitch切换按钮状态
     void gameBtnPush(); //游戏选择
+    void checkAndAdjustWindowGeometry(); // 屏幕检查
     static inline std::mt19937& generator();
     template<typename T, std::enable_if_t<std::is_integral_v<T>>* = nullptr>
     T my_rand(T min, T max);

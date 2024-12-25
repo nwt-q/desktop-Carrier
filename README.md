@@ -4,6 +4,25 @@ Carrier 是一款智能桌面宠物, 通过将Ai组件嵌入程序, 实现与用
 
 
 
+### Repo structure
+
+```
+|- client/
+|    |- src/                    // client source code
+|    |- CMakeLists.txt          // client CMakeLists.txt
+|
+|- server/
+|    |- src/                    // server source code
+|    |- CMakeLists.txt          // server CMakeLists.txt
+|
+|- prepare.sh                   // prepare script - will clone oatpp and oatpp-websocket. build and install.
+|- sock-config.sh               // configure required sysctl(s)
+```
+
+
+
+
+
 ## 运行配置
 
 你需要对 Clion 进行QT配置, 然后运行 CMake, 添加QT模块运行程序, 也可以下载Release下的安装包进行运行

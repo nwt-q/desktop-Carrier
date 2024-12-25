@@ -4,6 +4,5 @@ D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/rebuild_cache.dir
 D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/list_install_components.dir
 D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/install.dir
 D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/install/local.dir
-D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/install/strip.dir
 D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/Carrier_autogen_timestamp_deps.dir
 D:/CLion_Job/desktop-Carrier/cmake-build-debug/CMakeFiles/Carrier_autogen.dir

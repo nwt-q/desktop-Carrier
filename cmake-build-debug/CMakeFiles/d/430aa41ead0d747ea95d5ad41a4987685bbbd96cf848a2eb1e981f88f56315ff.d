@@ -1,25 +1,99 @@
 Carrier_autogen/timestamp: \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/bin/cmake.exe \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompiler.cmake.in \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCCompilerABI.c \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCInformation.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompiler.cmake.in \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXCompilerABI.cpp \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCXXInformation.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCommonLanguageInclude.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeCompilerIdDetection.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCXXCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompileFeatures.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerABI.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineCompilerId.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineRCCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeDetermineSystem.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindBinUtils.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeFindDependencyMacro.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeGenericSystem.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeInitializeConfigs.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeLanguageInformation.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitIncludeInfo.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseImplicitLinkInfo.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeParseLibraryArchitecture.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCCompiler.cmake.in \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeRCInformation.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystem.cmake.in \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInformation.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeSystemSpecificInitialize.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCXXCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestCompilerCommon.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CMakeTestRCCompiler.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCSourceCompiles.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXCompilerFlag.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckCXXSourceCompiles.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckIncludeFile.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/CheckLibraryExists.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ADSP-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMCC-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/ARMClang-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/AppleClang-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Borland-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Bruce-C-DetermineCompiler.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/CMakeCommonCompilerMacros.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Clang-DetermineCompilerInternal.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Cray-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Embarcadero-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Fujitsu-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GHS-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/HP-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IAR-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Intel-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-C.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-CXX.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/MSVC.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVHPC-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/NVIDIA-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PGI-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/PathScale-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SCO-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SDCC-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TI-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Tasking-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/Watcom-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XL-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-C-DetermineCompiler.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageHandleStandardArgs.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindPackageMessage.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/FindThreads.cmake \
@@ -28,13 +102,12 @@ Carrier_autogen/timestamp: \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckCompilerFlag.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckFlagCommonConfig.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/CheckSourceCompiles.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C-ABI.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-C.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX-ABI.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU-CXX.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-GNU.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Internal/FeatureTesting.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Determine-CXX.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-Initialize.cmake \
-  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-windres.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-MSVC-C.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-MSVC-CXX.cmake \
+  D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows-MSVC.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/Windows.cmake \
   D:/CLion/CLion\ 2023.3.4/bin/cmake/win/x64/share/cmake-3.27/Modules/Platform/WindowsPaths.cmake \
   D:/CLion_Job/desktop-Carrier/CMakeLists.txt \
@@ -42,7 +115,6 @@ Carrier_autogen/timestamp: \
   CMakeFiles/3.27.8/CMakeCXXCompiler.cmake \
   CMakeFiles/3.27.8/CMakeRCCompiler.cmake \
   CMakeFiles/3.27.8/CMakeSystem.cmake \
-  Carrier_autogen/moc_predefs.h \
   D:/CLion_Job/desktop-Carrier/include/carrier.h \
   D:/CLion_Job/desktop-Carrier/include/dresswin.h \
   D:/CLion_Job/desktop-Carrier/include/setwin.h \
@@ -57,241 +129,6 @@ Carrier_autogen/timestamp: \
   D:/CLion_Job/desktop-Carrier/ui/ui_carrier.h \
   D:/CLion_Job/desktop-Carrier/ui/ui_dresswin.h \
   D:/CLion_Job/desktop-Carrier/ui/ui_setwin.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/limits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include-fixed/syslimits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/algorithm \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/array \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/atomic \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward/auto_ptr.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/backward/binders.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/algorithmfwd.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/alloc_traits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/allocated_ptr.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/allocator.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/atomic_base.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/atomic_lockfree_defines.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_ios.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_ios.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/basic_string.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/char_traits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/charconv.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/codecvt.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/concept_check.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cpp_type_traits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cxxabi_forced.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/cxxabi_init_exception.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/enable_special_members.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/erase_if.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception_defines.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/exception_ptr.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/fs_dir.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/fs_fwd.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/fs_ops.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/fs_path.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/functexcept.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/functional_hash.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hash_bytes.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hashtable.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/hashtable_policy.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/invoke.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ios_base.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/istream.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/iterator_concepts.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/list.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_classes.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_classes.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_conv.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets_nonio.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/locale_facets_nonio.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/localefwd.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/memoryfwd.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/move.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/nested_exception.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/node_handle.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ostream.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ostream_insert.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/parse_numbers.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/postypes.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/predefined_ops.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ptr_traits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/quoted_string.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/random.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/random.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/range_access.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/range_cmp.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/ranges_uninitialized.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/refwrap.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr_atomic.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/shared_ptr_base.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/specfun.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/sstream.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_abs.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/std_function.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_algo.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_algobase.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_bvector.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_construct.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_function.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_heap.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator_base_funcs.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_iterator_base_types.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_list.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_map.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_multimap.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_numeric.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_pair.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_raw_storage_iter.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_relops.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_tempbuf.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_tree.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_uninitialized.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stl_vector.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stream_iterator.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/streambuf.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/streambuf_iterator.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/string_view.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/stringfwd.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/uniform_int_dist.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unique_ptr.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/unordered_map.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/uses_allocator.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/bits/vector.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cctype \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cerrno \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/chrono \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/climits \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/clocale \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cmath \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/codecvt \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/concepts \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstddef \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdint \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdio \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstdlib \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cstring \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ctime \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cwchar \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/cwctype \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/debug/assertions.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/debug/debug.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/exception \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/aligned_buffer.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/alloc_traits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/atomicity.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/concurrence.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/new_allocator.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/numeric_traits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/string_conversions.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ext/type_traits.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/filesystem \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/functional \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/initializer_list \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iomanip \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ios \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iosfwd \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/istream \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/iterator \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/limits \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/list \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/locale \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/map \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/memory \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/new \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/numeric \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/optional \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ostream \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/execution_defs.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/glue_algorithm_defs.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/glue_memory_defs.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/pstl/glue_numeric_defs.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/random \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/ratio \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/sstream \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/stdexcept \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/stdlib.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/streambuf \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/string \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/string_view \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/system_error \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/bessel_function.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/beta_function.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/ell_integral.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/exp_integral.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/gamma.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/hypergeometric.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/legendre_function.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/modified_bessel_func.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/poly_hermite.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/poly_laguerre.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/riemann_zeta.tcc \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tr1/special_function_util.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/tuple \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/type_traits \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/typeinfo \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/unordered_map \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/utility \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/variant \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/vector \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/atomic_word.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++allocator.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/c++locale.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/cpu_defines.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/ctype_base.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/ctype_inline.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/error_constants.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/gthr-default.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/gthr.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/messages_members.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/opt_random.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/os_defines.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/c++/x86_64-w64-mingw32/bits/time_members.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdarg.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdbool.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stddef.h \
-  D:/MinGW/MinGW/lib/gcc/x86_64-w64-mingw32/10.3.0/include/stdint.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/_mingw.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/_mingw_mac.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/_mingw_off_t.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/_mingw_secapi.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/_mingw_stat64.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/_timeval.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/assert.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/corecrt.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/corecrt_startup.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/corecrt_stdio_config.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/corecrt_wstdlib.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/crtdefs.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/ctype.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/errno.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/locale.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/process.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/pthread.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/pthread_compat.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/pthread_signal.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/pthread_time.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/pthread_unistd.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/sdks/_mingw_ddk.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/sec_api/stdio_s.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/sec_api/string_s.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/sec_api/sys/timeb_s.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/sec_api/wchar_s.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/signal.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/stdio.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/string.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/swprintf.inl \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/sys/timeb.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/sys/types.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/time.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/vadefs.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/wchar.h \
-  D:/MinGW/MinGW/x86_64-w64-mingw32/include/wctype.h \
   D:/QT/QTidea/6.6.1/mingw_64/include/QtCore/QDir \
   D:/QT/QTidea/6.6.1/mingw_64/include/QtCore/QFile \
   D:/QT/QTidea/6.6.1/mingw_64/include/QtCore/QFunctionPointer \

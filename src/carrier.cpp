@@ -3,6 +3,7 @@
 //
 
 #include <iostream>
+#include <QApplication>
 #include "../include/carrier.h"
 #include "../ui/ui_carrier.h"
 //出现位置无法找到的情况
@@ -92,6 +93,7 @@ void Carrier::InitPos() {
         //读取数据
         in >> size >> bodyid >> earsid >> coordX >> coordY;
         // 检查读取的数据是否有效
+        checkAndAdjustWindowGeometry();
         if (size == 0 || bodyid == 0 || earsid == 0 || coordX == 0 || coordY == 0) {
             // 如果数据无效，将值移动到屏幕中间
             QScreen* screen = QGuiApplication::primaryScreen();
@@ -104,7 +106,8 @@ void Carrier::InitPos() {
             int yPosition = (screenHeight - this->height()) / 2;
 
             // 将窗口移动到屏幕中心
-            move(xPosition, yPosition);
+            //move(xPosition, yPosition);
+            //checkAndAdjustWindowGeometry();
             size = 200;
             bodyid = 0;
             earsid = 0;
@@ -638,4 +641,33 @@ template<typename T, std::enable_if_t<std::is_integral_v<T>>*>
 T Carrier::my_rand(T min, T max) {
     std::uniform_int_distribution<T> dist(min, max);
     return dist(generator());
+}
+
+//// 检查是否在屏幕内
+void Carrier::checkAndAdjustWindowGeometry()
+{
+    // Get the screen geometry (for the primary screen)
+    QRect screenGeometry = QApplication::primaryScreen()->availableGeometry();
+
+    // Get the current window geometry
+    QRect windowGeometry = geometry();
+
+    // Check if the window is outside the screen bounds on any side
+    if (windowGeometry.left() < screenGeometry.left()) {
+        windowGeometry.moveLeft(screenGeometry.left());
+    }
+    if (windowGeometry.top() < screenGeometry.top()) {
+        windowGeometry.moveTop(screenGeometry.top());
+    }
+    if (windowGeometry.right() > screenGeometry.right()) {
+        windowGeometry.moveRight(screenGeometry.right());
+    }
+    if (windowGeometry.bottom() > screenGeometry.bottom()) {
+        windowGeometry.moveBottom(screenGeometry.bottom());
+    }
+
+    // Apply the adjusted geometry if needed
+    if (geometry() != windowGeometry) {
+        setGeometry(windowGeometry);
+    }
 }
